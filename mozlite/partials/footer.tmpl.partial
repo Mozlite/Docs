@@ -5,7 +5,7 @@
   <div class="footer">
     <div class="container-fluid">
       <span class="pull-right">
-        <a href="#top">返回</a>
+        <a href="#top">返回↑</a>
       </span>
       {{{_appFooter}}}
       {{^_appFooter}}<span> <strong>DocFX</strong> 2019&copy; <a href="https://www.mozlite.com">www.mozlite.com</a></span>{{/_appFooter}}

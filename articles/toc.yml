@@ -1,2 +1,82 @@
-- name: 介绍
+- name: 简单介绍
   href: intro.md
+- name: 开发规范
+  items:
+    - name: 新建项目
+      href: project.md
+    - name: 布局页面
+      href: layout.md
+    - name: 简单例子
+      href: demo.md
+- name: 核心框架
+  items:
+    - name: IOC容器注册接口
+      href: ioc.md
+    - name: 自定义程序集服务注册接口
+      href: service.md
+    - name: 自定义应用程序中间件使用接口
+      href: app.md
+    - name: 替换已有程序集注册的接口实现类
+      href: suppress.md
+    - name: 后台服务
+      href: hosted-service.md
+- name: 数据模型
+  items:
+    - name: 数据实体类型定义
+      href: entity.md
+    - name: 数据库操作接口
+      href: database.md
+    - name: 数据库事务处理
+      href: trans.md
+    - name: 多表查询
+      href: query.md
+    - name: 分页查询
+      href: page.md
+    - name: 数据库迁移
+      href: migration.md
+    - name: 数据库扩展
+      href: migration.md
+- name: 文件存储
+  items:
+    - name: 文件存储实现原理
+      href: storage.md
+    - name: Excel操作
+      href: excel.md
+    - name: 文件缓存
+      href: storage-cache.md
+    - name: 文件配置载入
+      href: storage-config.md
+    - name: 验证码
+      href: verfier.md
+- name: 业务逻辑通用模块
+  items:
+    - name: 分类分组通用模块定义
+      href: extension.md
+    - name: 安装初始化
+      href: installer.md
+    - name: 配置存储
+      href: setting.md
+    - name: 后台任务服务
+      href: task.md
+    - name: 搜索索引
+      href: search.md
+    - name: 消息模块
+      items: 
+        - name: 电子邮件
+          href: email.md
+        - name: 短信
+          href: sms.md
+        - name: 站内通知
+          href: notify.md
+- name: 用户登录
+  items:
+    - name: 用户相关信息定义
+      href: user.md
+    - name: 用户角色
+      href: role.md
+    - name: 用户权限
+      href: permission.md
+    - name: 用户活动日志
+      href: log.md
+    - name: 用户扩展
+      href: user-extend.md
