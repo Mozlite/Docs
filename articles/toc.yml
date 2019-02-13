@@ -20,6 +20,8 @@
       href: suppress.md
     - name: 后台服务
       href: hosted-service.md
+    - name: 本地化资源
+      href: localizer.md
 - name: 数据模型
   items:
     - name: 数据实体类型定义
